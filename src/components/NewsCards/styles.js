@@ -7,13 +7,14 @@ export default makeStyles({
     justifyContent: 'space-between',
     alignItems: 'center',
     width: '100%',
-    height: '45vh',
+    height: 'inherit',
     padding: '10%',
     borderRadius: 10,
     color: 'white',
+    fontSize: '1rem',
   },
   infoCard: {
-    display: 'flex', flexDirection: 'column', textAlign: 'center',
+    display: 'flex', height: '55vh', flexDirection: 'column', textAlign: 'center',
   },
   container: {
     padding: '0 5%', width: '100%', margin: 0,
